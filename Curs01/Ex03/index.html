@@ -2,8 +2,17 @@
 <html lang="en">
 
 <head>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Picture & srcset</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
 
   <link
     rel="stylesheet"
@@ -12,7 +21,27 @@
 </head>
 
 <body>
+  <picture>
+    <source
+      media="(max-width: 600px)"
+      srcset="images/w300.png"
+    >
 
+    <source
+      media="(max-width: 768px)"
+      srcset="images/w500.png"
+    >
+
+    <source
+      media="(max-width: 992px)"
+      srcset="images/w900.png"
+    >
+
+    <img
+      src="images/w1900.png"
+      alt="xxvcacx"
+    >
+  </picture>
 
 
   <div
