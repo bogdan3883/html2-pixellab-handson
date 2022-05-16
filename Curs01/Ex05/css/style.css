@@ -1,8 +1,14 @@
-body {
-  background-color: teal;
+ul a:hover {
+  text-decoration: none;
+  color: red;
 }
-body > h1 {
-  display: inline-block;
+ul a:active {
+  color: purple;
+}
+
+.para-short {
+  width: 50%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
