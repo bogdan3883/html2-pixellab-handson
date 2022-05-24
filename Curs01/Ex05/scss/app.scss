@@ -1,17 +1,60 @@
-ul {
-  a {
-    &:hover {
-      text-decoration: none;
-      color: red;
-    }
+$color-hover: red;
+$color-active: purple;
+$color-visited: green;
+$ol-hover: magenta;
+$ol-active: pink;
+$ol-visited: lightcoral;
 
-    &:active {
-      color: purple;
-    }
+ul a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: red;
   }
+
+  &:active {
+    color: purple;
+  }
+
+  &:visited {
+    color: green;
+  }
+}
+
+.para {
+  padding: 10px 20px;
 }
 
 .para-short {
   width: 50%;
   margin: 0 auto;
+}
+
+ol a {
+  text-decoration: none;
+  &:hover {
+    color: $ol-hover;
+  }
+
+  &:active {
+    color: $ol-active;
+  }
+
+  &:visited {
+    color: $ol-visited;
+  }
+}
+
+.reverse .para-short {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.reverse .para {
+  width: 50%;
+  padding: 0 0;
+}
+
+.all-visited a {
+  text-decoration: line-through;
 }

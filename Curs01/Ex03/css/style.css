@@ -1,16 +1,7 @@
-picture {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-}
-
-@media (min-width: 993px) {
-  picture {
-    width: 100%;
-    display: block;
-  }
-
-  picture img {
-    width: 100%;
+@media (max-width: 992px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
