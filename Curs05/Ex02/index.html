@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
   <title>Bootstrap Grid</title>
+
+
+  <!-- CSS only -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  >
 </head>
+
 <body>
-  
+  <main class="container">
+    <ul
+      class="row bg-dark text-warning mb-0 list-unstyled align-items-start text-center justify-content-between"
+      style="height: 200px;"
+    >
+      <li class="col-2 px-0 py-2 border border-warning">a</li>
+      <li class="col-4 px-0 py-2 border border-warning">b</li>
+      <li class="col-2 px-0 py-2 border border-warning">c</li>
+    </ul>
+
+    <section
+      class="row bg-secondary align-items-center text-muted text-center justify-content-around"
+      style="height: 200px;"
+    >
+      <article class="col-4 border border-primary">a</article>
+      <article class="col-7 border border-primary">b</article>
+    </section>
+
+    <section
+      class="row bg-danger text-info align-items-end justify-content-end text-end"
+      style="height: 200px;"
+    >
+      <div class="col-6 border border-light ">c</div>
+    </section>
+  </main>
 </body>
+
 </html>
