@@ -26,4 +26,13 @@
   background-color: purple;
 }
 
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

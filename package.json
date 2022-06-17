@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bogdan3883/html2-pixellab-handson#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "sass": "^1.52.1"
   },
   "keywords": [],

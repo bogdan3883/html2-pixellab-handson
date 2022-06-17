@@ -9,6 +9,11 @@
   background-color: $color;
 }
 
+@mixin circles() {
+  width: 200px;
+  height: 200px;
+}
+
 .squares {
   width: 80%;
   margin: 0 auto;
@@ -32,4 +37,13 @@
 
 .square-purple {
   @include square-bg(purple);
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
 }
